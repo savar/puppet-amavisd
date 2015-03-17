@@ -1,0 +1,14 @@
+{
+  "name": "Savar-amavisd",
+  "version": "0.1.1",
+  "author": "mobile.international GmbH",
+  "summary": "Amavisd module",
+  "license": "Apache 2.0",
+  "source": "git://github.com/Savar/puppet-amavisd.git",
+  "project_page": "http://github.com/Savar/puppet-amavisd",
+  "issues_url": "https://github.com/Savar/puppet-amavisd/issues",
+  "description": "Amavisd module",
+  "dependencies": [
+    {"name":"puppetlabs/stdlib","version_requirement":">= 2.2.1"}
+  ]
+}
