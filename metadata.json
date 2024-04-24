@@ -1,14 +1,36 @@
 {
   "name": "Savar-amavisd",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "author": "mobile.international GmbH",
   "summary": "Amavisd module",
   "license": "Apache 2.0",
   "source": "git://github.com/Savar/puppet-amavisd.git",
   "project_page": "http://github.com/Savar/puppet-amavisd",
   "issues_url": "https://github.com/Savar/puppet-amavisd/issues",
-  "description": "Amavisd module",
   "dependencies": [
-    {"name":"puppetlabs/stdlib","version_requirement":">= 2.2.1"}
-  ]
+    {
+      "name": "puppetlabs/stdlib",
+      "version_requirement": ">= 2.2.1"
+    }
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "Debian",
+      "operatingsystemrelease": ["10", "11", "12"]
+    },
+    {
+      "operatingsystem": "Ubuntu",
+      "operatingsystemrelease": ["20.04", "22.04", "23.04", "23.10", "24.04"]
+    }
+  ],
+  "requirements": [
+    {
+      "name": "puppet",
+      "version_requirement": ">= 7.24 < 9.0.0"
+    }
+  ],
+  "description": "Amavisd module",
+  "pdk-version": "3.0.1",
+  "template-url": "pdk-default#3.0.1",
+  "template-ref": "tags/3.0.1-0-gd13288a"
 }
